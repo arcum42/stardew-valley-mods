@@ -101,7 +101,7 @@
                     ],
                 },
                 {
-                    "ItemType": "Object",
+                    "ItemType": "BigCraftable",
                     "StockPrice": 75000,
                     "ItemNames": [
                         "Soda Machine"
@@ -217,7 +217,7 @@
                     ],
                 },
                 {
-                    "ItemType": "Object",
+                    "ItemType": "BigCraftable",
                     "StockPrice": 250,
                     "ItemNames": [
                         "Chest"
@@ -272,7 +272,7 @@
                     "StockPrice": 550,
                     "Quality": 2,
                     "ItemNames": [
-                        "Large Goat Milk"
+                        "L. Goat Milk"
                     ]
                 },
                 {
@@ -332,10 +332,10 @@
                     ],
                 },
                 {
-                    "ItemType": "Object",
+                    "ItemType": "BigCraftable",
                     "StockPrice": 75000,
                     "ItemNames": [
-                        "Auto Petter"
+                        "Auto-Petter"
                     ],
                     "When": [
                         "CommunityCenterComplete",
@@ -428,7 +428,7 @@
                     ],
                 },
                 {
-                    "ItemType": "Object",
+                    "ItemType": "BigCraftable",
                     "StockPrice": 2000,
                     "ItemNames": [
                         "Furnace"
