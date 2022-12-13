@@ -1,0 +1,440 @@
+{
+    "VanillaShops": [
+        {
+            "ShopName": "JojaShop",
+            "AddStockAboveVanilla": "False",
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 125,
+                    "ItemNames": [
+                        "Milk"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 230,
+                    "ItemNames": [
+                        "Cheese"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 175,
+                    "ItemNames": [
+                        "Vinegar"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 200,
+                    "ItemNames": [
+                        "Salad"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 220,
+                    "ItemNames": [
+                        "Spaghetti"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 300,
+                    "ItemNames": [
+                        "Pepper Poppers"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 500,
+                    "ItemNames": [
+                        "Pizza"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 1500,
+                    "ItemNames": [
+                        "Battery Pack"
+                    ],
+                    "When": [
+                        "SkillLevel foraging 6",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 350,
+                    "ItemNames": [
+                        "Sprinkler"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 1500,
+                    "ItemNames": [
+                        "Quality Sprinkler"
+                    ],
+                    "When": [
+                        "SkillLevel farming 6",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 12500,
+                    "ItemNames": [
+                        "Iridium Sprinkler"
+                    ],
+                    "When": [
+                        "SkillLevel farming 9",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 3000,
+                    "ItemNames": [
+                        "Seed Maker"
+                    ],
+                    "When": [
+                        "SkillLevel farming 9",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 75000,
+                    "ItemNames": [
+                        "Soda Machine"
+                    ],
+                    "When": [
+                        "JojaMartComplete",
+                    ],
+                },
+            ]
+        },
+        {
+            "ShopName": "PierreShop",
+            "AddStockAboveVanilla": "False",
+            "ItemStocks": [
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 250,
+                    "ItemNames": [
+                        "Scarecrow"
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 500,
+                    "ItemNames": [
+                        "Sprinkler"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 2000,
+                    "ItemNames": [
+                        "Quality Sprinkler"
+                    ],
+                    "When": [
+                        "SkillLevel farming 6",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 15000,
+                    "ItemNames": [
+                        "Iridium Sprinkler"
+                    ],
+                    "When": [
+                        "SkillLevel farming 9",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 5000,
+                    "ItemNames": [
+                        "Seed Maker"
+                    ],
+                    "When": [
+                        "SkillLevel farming 9",
+                    ],
+                },
+            ]
+        },
+        {
+            "ShopName": "RobinShop",
+            "AddStockAboveVanilla": "False",
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 100,
+                    "ItemNames": [
+                        "Hardwood"
+                    ],
+                    "When": [
+                        "y 1",
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 500,
+                    "ItemNames": [
+                        "Hardwood"
+                    ],
+                    "When": [
+                        "y 2",
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 100,
+                    "ItemNames": [
+                        "Clay"
+                    ],
+                    "When": [
+                        "y 1",
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 500,
+                    "ItemNames": [
+                        "Clay"
+                    ],
+                    "When": [
+                        "y 2",
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 300,
+                    "ItemNames": [
+                        "Tree Fertilizer"
+                    ],
+                    "When": [
+                        "SkillLevel foraging 7",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 250,
+                    "ItemNames": [
+                        "Chest"
+                    ]
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 2500,
+                    "ItemNames": [
+                        "Preserve Jar"
+                    ],
+                    "When": [
+                        "SkillLevel farming 4",
+                    ],
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 5000,
+                    "ItemNames": [
+                        "Keg"
+                    ],
+                    "When": [
+                        "SkillLevel farming 8",
+                    ],
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 1000,
+                    "ItemNames": [
+                        "Cask"
+                    ],
+                    "When": [
+                        "FarmHouseUpgradeLevel 2 3",
+                    ],
+                }
+            ]
+        },
+        {
+            "ShopName": "MarnieShop",
+            "AddStockAboveVanilla": "False",
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 200,
+                    "Quality": 2,
+                    "ItemNames": [
+                        "Large Milk"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 550,
+                    "Quality": 2,
+                    "ItemNames": [
+                        "Large Goat Milk"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 150,
+                    "Quality": 2,
+                    "ItemNames": [
+                        "Large Egg"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 550,
+                    "Quality": 2,
+                    "ItemNames": [
+                        "Wool"
+                    ]
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 1250,
+                    "ItemNames": [
+                        "Mayonnaise Machine"
+                    ],
+                    "When": [
+                        "SkillLevel farming 2",
+                    ],
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 1500,
+                    "ItemNames": [
+                        "Cheese Press"
+                    ],
+                    "When": [
+                        "SkillLevel farming 6",
+                    ],
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 2500,
+                    "ItemNames": [
+                        "Loom"
+                    ],
+                    "When": [
+                        "SkillLevel farming 7",
+                    ],
+                },
+                {
+                    "ItemType": "BigCraftable",
+                    "StockPrice": 3000,
+                    "ItemNames": [
+                        "Oil Maker"
+                    ],
+                    "When": [
+                        "SkillLevel farming 9",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 75000,
+                    "ItemNames": [
+                        "Auto Petter"
+                    ],
+                    "When": [
+                        "CommunityCenterComplete",
+                    ],
+                },
+            ]
+        },
+        {
+            "ShopName": "ClintShop",
+            "AddStockAboveVanilla": "False",
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 3000,
+                    "ItemNames": [
+                        "Iridium Ore"
+                    ],
+                    "When": [
+                        "y 2",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 450,
+                    "ItemNames": [
+                        "Copper Bar"
+                    ],
+                    "When": [
+                        "y 1",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 750,
+                    "ItemNames": [
+                        "Iron Bar"
+                    ],
+                    "When": [
+                        "y 1",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 1350,
+                    "ItemNames": [
+                        "Gold Bar"
+                    ],
+                    "When": [
+                        "y 1",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 850,
+                    "ItemNames": [
+                        "Copper Bar"
+                    ],
+                    "When": [
+                        "y 2",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 1250,
+                    "ItemNames": [
+                        "Iron Bar"
+                    ],
+                    "When": [
+                        "y 2",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 3250,
+                    "ItemNames": [
+                        "Gold Bar"
+                    ],
+                    "When": [
+                        "y 2",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 12250,
+                    "ItemNames": [
+                        "Iridium Bar"
+                    ],
+                    "When": [
+                        "y 2",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "StockPrice": 2000,
+                    "ItemNames": [
+                        "Furnace"
+                    ],
+                },
+            ]
+        }
+    ]
+}

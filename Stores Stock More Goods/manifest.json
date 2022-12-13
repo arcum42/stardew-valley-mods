@@ -1,0 +1,13 @@
+{
+    "Name": "Stores Stock More Goods",
+    "Author": "arcum42",
+    "Version": "0.5.0",
+    "Description": "Expands the stocks of Pierre's store, JojaMart, Robin's store, Marnie's store, and Clint's store to include more items, and various useful machines.",
+    "UniqueID": "arcum42.StoresStockMoreGoods",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Cherry.ShopTileFramework",
+        "MinimumVersion": "1.0.5"
+    }
+}
