@@ -5,7 +5,7 @@
     "Description": "Expands the stocks of Pierre's store, JojaMart, Robin's store, Marnie's store, and Clint's store to include more items, and various useful machines.",
     "UniqueID": "arcum42.StoresStockMoreGoods",
     "MinimumApiVersion": "3.0.0",
-    "UpdateKeys": [ "Github:arcum42/stardew-valley-mods"],
+    "UpdateKeys": [ "Nexus:14754", "Github:arcum42/stardew-valley-mods"],
     "ContentPackFor": {
         "UniqueID": "Cherry.ShopTileFramework",
         "MinimumVersion": "1.0.5"
