@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "Entries": {
+                "Scarecrow": {
+                    "Id": "arcum42.Scarecrow",
+                    "ItemId": "(BC)8",
+                    "Price": "125"
+                },
+                "Sprinkler": {
+                    "Id": "arcum42.Sprinkler",
+                    "ItemId": "(O)599",
+                    "Price": "250"
+                },
+                "Quality Sprinkler": {
+                    "Id": "arcum42.QualitySprinkler",
+                    "ItemId": "(O)621",
+                    "Price": "1000",
+                    "Condition": "PLAYER_FARMING_LEVEL Any 6"
+                },
+                "Iridium Sprinkler": {
+                    "Id": "arcum42.IridiumSprinkler",
+                    "ItemId": "(O)645",
+                    "Price": "7500",
+                    "Condition": "PLAYER_FARMING_LEVEL Any 9"
+                },
+                "Seed Maker": {
+                    "Id": "arcum42.SeedMaker",
+                    "ItemId": "(BC)25",
+                    "Price": "2500",
+                    "Condition": "PLAYER_FARMING_LEVEL Any 9"
+                }
+            }
+        }
+    ]
+}

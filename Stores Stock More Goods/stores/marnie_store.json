@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "AnimalShop",
+                "Items"
+            ],
+            "Entries": {
+                "Large Egg": {
+                    "Id": "arcum42.LargeEgg",
+                    "ItemId": "(O)174",
+                    "Price": "75"
+                },
+                "Large Milk": {
+                    "Id": "arcum42.LargeMilk",
+                    "ItemId": "(O)186",
+                    "Price": "100"
+                },
+                "L. Goat Milk": {
+                    "Id": "arcum42.LGoatMilk",
+                    "ItemId": "(O)438",
+                    "Price": "275"
+                },
+                "Wool": {
+                    "Id": "arcum42.Wool",
+                    "ItemId": "(O)440",
+                    "Price": "275"
+                },
+                "Mayonnaise Machine": {
+                    "Id": "arcum42.MayoMachine",
+                    "ItemId": "(BC)24",
+                    "Price": "625",
+                    "Condition": "PLAYER_FARMING_LEVEL Current 2"
+                },
+                "Cheese Press": {
+                    "Id": "arcum42.CheesePress",
+                    "ItemId": "(BC)16",
+                    "Price": "750",
+                    "Condition": "PLAYER_FARMING_LEVEL Current 6"
+                },
+                "Loom": {
+                    "Id": "arcum42.Loom",
+                    "ItemId": "(BC)17",
+                    "Price": "1250",
+                    "Condition": "PLAYER_FARMING_LEVEL Current 7"
+                },
+                "Oil Maker": {
+                    "Id": "arcum42.OilMaker",
+                    "ItemId": "(BC)19",
+                    "Price": "1500",
+                    "Condition": "PLAYER_FARMING_LEVEL Current 9"
+                },
+                "Auto-Petter": {
+                    "Id": "arcum42.AutoPetter",
+                    "ItemId": "(BC)272",
+                    "Price": "67500",
+                    "Condition": "IS_COMMUNITY_CENTER_COMPLETE True"
+                }
+            }
+        }
+    ]
+}

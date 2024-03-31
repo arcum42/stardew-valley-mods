@@ -1,0 +1,57 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "EnableClint": {
+            "AllowValues": "true, false",
+            "Description": "Enable changes to Clint's store. Won't take effect until a new day or you reload.",
+            "Default": true
+        },
+        "EnableJoja": {
+            "AllowValues": "true, false",
+            "Description": "Enable changes to Joja Mart. Won't take effect until a new day or you reload.",
+            "Default": true
+        },
+        "EnableMarnie": {
+            "AllowValues": "true, false",
+            "Description": "Enable changes to Marnie's store. Won't take effect until a new day or you reload.",
+            "Default": true
+        },
+        "EnablePierre": {
+            "AllowValues": "true, false",
+            "Description": "Enable changes to Pierre's store. Won't take effect until a new day or you reload.",
+            "Default": true
+        },
+        "EnableRobin": {
+            "AllowValues": "true, false",
+            "Description": "Enable changes to Robin's store. Won't take effect until a new day or you reload.",
+            "Default": true
+        }
+    },
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "stores/clint_store.json",
+            "When": { "EnableClint": true}
+        },
+        {
+            "Action": "Include",
+            "FromFile": "stores/joja_store.json",
+            "When": { "EnableJoja": true}
+        },
+        {
+            "Action": "Include",
+            "FromFile": "stores/marnie_store.json",
+            "When": { "EnableMarnie": true}
+        },
+        {
+            "Action": "Include",
+            "FromFile": "stores/pierre_store.json",
+            "When": { "EnablePierre": true}
+        },
+        {
+            "Action": "Include",
+            "FromFile": "stores/robin_store.json",
+            "When": { "EnableRobin": true}
+        },
+    ]
+}

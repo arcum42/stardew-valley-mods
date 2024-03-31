@@ -19,4 +19,4 @@ Not a terribly inventive name, I'll admit, but it covers what this mod does. I'v
 
 This has not been extensively tested, so use at your own risk. Prices are a bit haphazard, and I may very well end up adjusting them.
 
-This mod requires [the Shop Tile Framework](<https://www.nexusmods.com/stardewvalley/mods/5005>) mod, which in turn requires [the Expanded Preconditions Utility](<https://www.nexusmods.com/stardewvalley/mods/6529>) mod.
+This has now been converted over to use Content Patcher for 1.6 instead of the Shop Tile Framework, so if you had that installed from a previous version, you may remove it, unless anythigng else uses it.

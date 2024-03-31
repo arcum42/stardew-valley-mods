@@ -1,0 +1,77 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Blacksmith",
+                "Items"
+            ],
+            "Entries": {
+                "Iridium Ore": {
+                    "Id": "arcum42.IridiumOre",
+                    "ItemId": "(O)386",
+                    "Price": "1500",
+                    "Condition": "YEAR 2"
+                },
+                "Copper Bar Year One": {
+                    "Id": "arcum42.CopperBar_YearOne",
+                    "ItemId": "(O)334",
+                    "Price": "225",
+                    "Condition": "!YEAR 2"
+                },
+                "Copper Bar After Year One": {
+                    "Id": "arcum42.CopperBar_AfterYearOne",
+                    "ItemId": "(O)334",
+                    "Price": "450",
+                    "Condition": "YEAR 2"
+                },
+                "Iron Bar Year One": {
+                    "Id": "arcum42.IronBar_YearOne",
+                    "ItemId": "(O)335",
+                    "Price": "375",
+                    "Condition": "!YEAR 2"
+                },
+                "Iron Bar After Year One": {
+                    "Id": "arcum42.IronBar_AfterYearOne",
+                    "ItemId": "(O)335",
+                    "Price": "750",
+                    "Condition": "YEAR 2"
+                },
+                "Gold Bar Year One": {
+                    "Id": "arcum42.GoldBar_YearOne",
+                    "ItemId": "(O)336",
+                    "Price": "675",
+                    "Condition": "!YEAR 2"
+                },
+                "Gold Bar After Year One": {
+                    "Id": "arcum42.GoldBar_AfterYearOne",
+                    "ItemId": "(O)336",
+                    "Price": "1350",
+                    "Condition": "YEAR 2"
+                },
+                "Iridium Bar": {
+                    "Id": "arcum42.IridiumBar",
+                    "ItemId": "(O)337",
+                    "Price": "6125",
+                    "Condition": "YEAR 2"
+                },
+                "Furnace": {
+                    "Id": "arcum42.Furnace",
+                    "ItemId": "(BC)13",
+                    "Price": "2000"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id": "Coal_YearOne",
+                    "ToPosition": "Top"
+                },
+                {
+                    "Id": "Coal_AfterYearOne",
+                    "AfterId": "Coal_YearOne"
+                }
+            ]
+        }
+    ]
+}

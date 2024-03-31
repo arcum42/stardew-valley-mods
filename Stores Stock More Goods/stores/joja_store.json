@@ -1,0 +1,146 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Joja",
+                "Items"
+            ],
+            "Entries": {
+                "Milk": {
+                    "Id": "arcum42.Milk",
+                    "ItemId": "(O)184",
+                    "Price": "60"
+                },
+                "Cheese": {
+                    "Id": "arcum42.Cheese",
+                    "ItemId": "(O)424",
+                    "Price": "115"
+                },
+                "Vinegar": {
+                    "Id": "arcum42.Vinegar",
+                    "ItemId": "(O)419",
+                    "Price": "75"
+                },
+                "Salad": {
+                    "Id": "arcum42.Salad",
+                    "ItemId": "(O)196",
+                    "Price": "100"
+                },
+                "Spaghetti": {
+                    "Id": "arcum42.Spaghetti",
+                    "ItemId": "(O)224",
+                    "Price": "110"
+                },
+                "Pepper Poppers": {
+                    "Id": "arcum42.PepperPoppers",
+                    "ItemId": "(O)215",
+                    "Price": "150"
+                },
+                "Pizza": {
+                    "Id": "arcum42.Pizza",
+                    "ItemId": "(O)206",
+                    "Price": "250"
+                },
+                "Battery Pack": {
+                    "Id": "arcum42.BatteryPack",
+                    "ItemId": "787",
+                    "Price": "750",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 6"
+                },
+                "Sprinkler": {
+                    "Id": "arcum42.Sprinkler",
+                    "ItemId": "(O)599",
+                    "Price": "250"
+                },
+                "Quality Sprinkler": {
+                    "Id": "arcum42.QualitySprinkler",
+                    "ItemId": "(O)621",
+                    "Price": "1000",
+                    "Condition": "PLAYER_FARMING_LEVEL Any 6"
+                },
+                "Iridium Sprinkler": {
+                    "Id": "arcum42.IridiumSprinkler",
+                    "ItemId": "(O)645",
+                    "Price": "7500",
+                    "Condition": "PLAYER_FARMING_LEVEL Any 9"
+                },
+                "Seed Maker": {
+                    "Id": "arcum42.SeedMaker",
+                    "ItemId": "(BC)25",
+                    "Price": "2500",
+                    "Condition": "PLAYER_FARMING_LEVEL Any 9"
+                },
+                "Soda Machine": {
+                    "Id": "arcum42.SodaMachine",
+                    "ItemId": "(BC)117",
+                    "Price": "37500",
+                    "Condition": "IS_JOJA_MART_COMPLETE True"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id": "arcum42.Vinegar",
+                    "AfterId": "(O)423"
+                },
+                {
+                    "Id": "arcum42.Milk",
+                    "AfterId": "arcum42.Vinegar"
+                },
+                {
+                    "Id": "arcum42.Cheese",
+                    "AfterId": "arcum42.Milk"
+                },
+                {
+                    "Id": "arcum42.Salad",
+                    "AfterId": "arcum42.Cheese"
+                },
+                {
+                    "Id": "arcum42.Spaghetti",
+                    "AfterId": "arcum42.Salad"
+                },
+                {
+                    "Id": "arcum42.PepperPoppers",
+                    "AfterId": "arcum42.Spaghetti"
+                },
+                {
+                    "Id": "arcum42.Pizza",
+                    "AfterId": "arcum42.PepperPoppers"
+                },
+                {
+                    "Id": "arcum42.SodaMachine",
+                    "AfterId": "(F)1609"
+                },
+                {
+                    "Id": "arcum42.BatteryPack",
+                    "AfterId": "arcum42.SodaMachine"
+                },
+                {
+                    "Id": "arcum42.Sprinkler",
+                    "AfterId": "arcum42.BatteryPack"
+                },
+                {
+                    "Id": "arcum42.QualitySprinkler",
+                    "AfterId": "arcum42.Sprinkler"
+                },
+                {
+                    "Id": "arcum42.IridiumSprinkler",
+                    "AfterId": "arcum42.QualitySprinkler"
+                },
+                {
+                    "Id": "arcum42.SeedMaker",
+                    "AfterId": "arcum42.IridiumSprinkler"
+                },
+                {
+                    "Id": "RandomWallpaper",
+                    "AfterId": "(WP)21"
+                },
+                {
+                    "Id": "RandomFlooring",
+                    "AfterId": "RandomWallpaper"
+                }
+            ]
+        }
+    ]
+}
