@@ -61,17 +61,7 @@
                     "ItemId": "(BC)13",
                     "Price": "2000"
                 }
-            },
-            "MoveEntries": [
-                {
-                    "Id": "Coal_YearOne",
-                    "ToPosition": "Top"
-                },
-                {
-                    "Id": "Coal_AfterYearOne",
-                    "AfterId": "Coal_YearOne"
-                }
-            ]
+            }
         }
     ]
 }

@@ -60,46 +60,8 @@
                     "ItemId": "(BC)163",
                     "Price": "500",
                     "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 2 3"
-                },
-            },
-            "MoveEntries": [
-                {
-                    "Id": "arcum42.Hardwood_YearOne",
-                    "AfterId": "(O)388"
-                },
-                {
-                    "Id": "arcum42.Hardwood_YearTwo",
-                    "AfterId": "(O)388"
-                },
-                {
-                    "Id": "arcum42.Clay_YearOne",
-                    "AfterId": "(O)390"
-                },
-                {
-                    "Id": "arcum42.Clay_YearTwo",
-                    "AfterId": "(O)390"
-                },
-                {
-                    "Id": "arcum42.Chest",
-                    "AfterId": "(F)1466"
-                },
-                {
-                    "Id": "arcum42.PreservesJar",
-                    "AfterId": "arcum42.Chest"
-                },
-                {
-                    "Id": "arcum42.Keg",
-                    "AfterId": "arcum42.PreservesJar"
-                },
-                {
-                    "Id": "arcum42.Cask",
-                    "AfterId": "arcum42.Keg"
-                },
-                {
-                    "Id": "arcum42.TreeFertilizer",
-                    "BeforeId": "(BC)BigChest (Recipe)"
                 }
-            ]
+            }
         }
     ]
 }
